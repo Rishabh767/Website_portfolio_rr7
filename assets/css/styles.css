@@ -7,7 +7,7 @@
         --header-height: 3rem;
         /*========== Colors ==========*/
         /* Change favorite color */
-        --hue-color: 215;
+        --hue-color: 340;
         /*Purple 250 - Green 142 - Blue 215 - Pink 340*/
         /* HSL color mode */
         --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -346,12 +346,12 @@
     .home__profileImg {
         display: block;
         border: 2px groove var(--first-color);
-        border-radius: 50%;
+        border-radius: 15px 50px;
         background-color: var(--first-color-lighter);
     }
     
     .home__profileImg:hover {
-        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+        box-shadow: 0 0 2px 1px rgba(186, 90, 0, 0.5);
     }
     /*==================== BUTTONS ====================*/
     
